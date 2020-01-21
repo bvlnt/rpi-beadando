@@ -1,6 +1,6 @@
 # RetroPie modern funkciókkal
 ## Fejlesztői Dokumentáció
-### Mit használtunk fel
+### Mit használtunk fel?
 Projektünket **Raspberry Pi 2 Model B**-n készítettük el.  
 
 A rendszer alapja a **RetroPie** nevű ingyenes operációs rendszer, amely *Raspbian, EmulationStation és RetroArch* alapjaival készült.  
@@ -25,7 +25,7 @@ Azért ezt a projektet választottuk magunknak, mert:
 - Szórakoztató
 ### Kiemelt tulajdonságai a projektnek
 - Sok konzol emulálását támogatja (köztük néhány: *GameBoy Advance, Nintendo 64, Nintendo SNES, Sega Genesis*)
-- Nagyszínű joystick támogatás, azaz szinte bármilyen kontrollerrel működésbe hozható (mi teszteltük Sony Dualshock-on és Xbox One kontrollerrel is)
+- Nagyszínű joystick támogatás, azaz szinte bármilyen kontrollerrel működésbe hozható (teszteltük Sony Dualshock-on és Xbox One kontrollerrel is)
 - Működő *motion kontrol*, a joystick fizikai mozgatásával írányíthatunk menüben, és játékban egyaránt (ha a kontroller rendelkezik vele, akkor egyszerűen beállítások nélkül működik)
 - Egyszerűen programozható, fejleszthető, bővíthető
 - Felhasználó barát
@@ -41,6 +41,7 @@ Azért ezt a projektet választottuk magunknak, mert:
 - https://retropie.org.uk/
 - https://lifehacker.com/the-advanced-guide-to-setting-up-a-diy-game-console-wit-1790381861?fbclid=IwAR2iUVfynxsvxwU90BgGt9ELIIPzoQnr5UuBBZ-yuPJmNHVIcal6gvlsJiM
 - https://www.youtube.com/user/Mretaprime
+- https://github.com/retropie/
 ---
 ## Használati Útmutató
 ### Az eszköz üzembe helyezése
@@ -48,7 +49,28 @@ Azért ezt a projektet választottuk magunknak, mert:
 2. Amennyiben indításkor új kontrollert észlel abban az esetben automatikusan felajánlja, hogy konfiguráljuk azt, egy egyszerű felhasználóbarát ablakban.
 3. A menüben konzolok szerint böngészhetünk, majd a kiválasztott konzolon kiválaszthatjuk a kívánt játékot.
 4. Jó játékot!
-### Játékok hozzáadása
+### Játékok hozzáadása  
+Ehhez két lehetőségünk adott:
+- **Játékok hozzáadása hálózaton**
+1. Kössük hálózatra (vagy csatlakoztassuk Wifire) a Raspberry Pi-t,
+2. Nyissunk meg egy SFTP szolgáltatást nyújtó szoftvert (WinSCP),
+3. Csatlakozzunk a Pi-re a következőkkel:  
+Host name: *RETROPIE*  
+Port number: *22*  
+Username: *pi*  
+Password: *raspberry*  
+4. Helyezzük el az adott játékot(játékokat) a következő helyre: `~/RetroPie/roms/$""` az idézőjelek között válasszuk ki a játék konzolját. (pl: *snes* vagy *gba*)
+5. Zárjuk be a kapcsolatot a PC-ről
+6. Frissítsük a rendszert F4 lenyomásával, vagy válasszuk ki azt a menüből
+- **Játékok hozzáadása pendrive használatával**
+1. Győzödjünk meg róla, hogy FAT32 fájlrendszerű az adathordozó
+2. Hozzunk létre egy mappát `retropie` néven
+3. Csatlakoztassuk a Pi-be majd várjuk meg míg befejezi a villogást
+4. Csatlakoztassuk vissza a PC-nkre
+5. Helyezzük a kívánt játékokat erre a helyre: `retropie/roms` (a megfelelő konzol mappájába)
+6. Csatlakoztassuk a Pi-be vissza és várjuk meg a villogást
+7. Húzzuk ki a pendrive-ot
+8. Frissítsük a rendszert F4 lenyomásával, vagy válasszuk ki azt a menüből
 ### Bejelentkezés a Mérdföldkövek/Eredmények (Achievement) követésére
 1. Készíts felhasználót a **http://retroachievements.org/** oldalon
 2. Lépj a Raspberry parancssorába **(Menu -> Quit)**
