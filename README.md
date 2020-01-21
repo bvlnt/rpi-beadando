@@ -25,11 +25,13 @@ Azért ezt a projektet választottuk magunknak, mert:
 - Szórakoztató
 ### Kiemelt tulajdonságai a projektnek
 ### Fejlesztési lehetőségek
-- A kész projekt Arcade Gépbe való importálása  
+- A kész projekt Arcade Gépbe való importálása
+
 ![Arcade Gép](https://www.tinyarcademachines.com/uploads/1/1/6/6/11664734/3004564_orig.jpg)  
+
 - Értesítő üzenet rendszer létrehozása Python scriptek felhasználásával/kódolásával  
 *például: ha elérünk egy adott Mérföldkövet akkor kapjunk egy Twitter üzenetet.*
-- 
+- Többjátékos interneten való hozzáférése
 ### Források
 - https://retropie.org.uk/
 - https://lifehacker.com/the-advanced-guide-to-setting-up-a-diy-game-console-wit-1790381861?fbclid=IwAR2iUVfynxsvxwU90BgGt9ELIIPzoQnr5UuBBZ-yuPJmNHVIcal6gvlsJiM
