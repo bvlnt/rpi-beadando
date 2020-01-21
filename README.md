@@ -15,7 +15,7 @@ A rendszer alapja a **RetroPie** nevű ingyenes operációs rendszer, amely *Ras
 - Billentyűzet a parancssor használatához
 - HDMI kábel
 
-Elvégzett plusz feladatok a rendszerben:  
+**Elvégzett plusz feladatok a rendszerben:**  
 - Feltöltöttük a rendszert a kedvenc játékainkkal ☺
 - Kiegészítettük a projektet egy adatgyűjtési folyamattal, amivel valós idejűleg (!) követhetők lehetnek a játékban elért Mérföldkövek és összehasonlíthatók más felhasználókkal (használati útmutató utolsó lépéseként ez beállítható)
 - Felhasználtunk egy Scrapert (*SkyScraper*) ami megjelenít egy videót (játékmenetet) a könyvtárban az adott játék mellett,
