@@ -13,10 +13,11 @@ Szükséges hardwarek:
 - Billentyűzet a parancssor használatához
 - HDMI kábel
 
-Elvégzett plusz feladatok a rendszerben:
-- Felhasználtunk egy Scrapert (SkyScrapert) ami megjelenít egy videót a könyvtárban az adott játék mellett,
+Elvégzett plusz feladatok a rendszerben:  
+- Feltöltöttük a rendszert a kedvenc játékainkkal ☺
+- Felhasználtunk egy Scrapert (*SkyScraper*) ami megjelenít egy videót (játékmenetet) a könyvtárban az adott játék mellett,
 - Felhasználtunk egy témakezelőt és töltöttünk fel hozzá különböző ingyenesen elérhető témákat,
-- Létrehoztunk SSH és SFTP kapcsolatot, így könnyedén távolról is hozzáadhatóak plusz játékok és további dolgok a projekthez,
+- Beüzemeltük az *SSH és SFTP* kapcsolatot, így könnyedén távolról is dolgozhatunk a projekten (vagy adhatunk hozzá további játékokat),
 ### Miért ezt választottuk
 Azért ezt a projektet választottuk magunknak, mert: 
 - Tetszett az alapötlete a rendszernek, hogy egy ekkora méretű erőforrással játékok sokaságát vagyunk képesek játszani,
