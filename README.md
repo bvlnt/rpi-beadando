@@ -1,7 +1,7 @@
 # RetroPie modern funkciókkal
 
-[Fejlesztői dokumentáció](https://github.com/bvlnt/rpi-beadando/wiki/Fejleszt%C5%91i-dokument%C3%A1ci%C3%B3)
-[Használati útmutató](https://github.com/bvlnt/rpi-beadando/wiki/Haszn%C3%A1lati-%C3%9Atmutat%C3%B3)
+- [Fejlesztői dokumentáció](https://github.com/bvlnt/rpi-beadando/wiki/Fejleszt%C5%91i-dokument%C3%A1ci%C3%B3)  
+- [Használati útmutató](https://github.com/bvlnt/rpi-beadando/wiki/Haszn%C3%A1lati-%C3%9Atmutat%C3%B3)  
 
 Projektünket **Raspberry Pi 2 Model B**-n készítettük el.  
 
