@@ -15,6 +15,7 @@ A rendszer alapja a **RetroPie** nevű ingyenes operációs rendszer, amely *Ras
 
 Elvégzett plusz feladatok a rendszerben:  
 - Feltöltöttük a rendszert a kedvenc játékainkkal ☺
+- Kiegészítettük a projektet egy adatgyűjtési folyamattal, amivel valós idejűleg (!) követhetők lehetnek a játékban elért Mérföldkövek és összehasonlíthatók más felhasználókkal (használati útmutató utolsó lépéseként ez beállítható)
 - Felhasználtunk egy Scrapert (*SkyScraper*) ami megjelenít egy videót (játékmenetet) a könyvtárban az adott játék mellett,
 - Felhasználtunk egy témakezelőt és töltöttünk fel hozzá különböző ingyenesen elérhető témákat,
 - Beüzemeltük az *SSH és SFTP* kapcsolatot, így könnyedén távolról is dolgozhatunk a projekten (vagy adhatunk hozzá további játékokat),
@@ -38,6 +39,7 @@ Azért ezt a projektet választottuk magunknak, mert:
 - Értesítő üzenet rendszer létrehozása Python scriptek felhasználásával/kódolásával  
 *például: ha elérünk egy adott Mérföldkövet akkor kapjunk egy Twitter üzenetet.*
 - Többjátékos interneten való hozzáférése
+- (Jogi következményeit nem ismerjük, de pénzérmés változat is kódolható és beüzemelhető lehet. ☺)
 ### Források
 - https://retropie.org.uk/
 - https://lifehacker.com/the-advanced-guide-to-setting-up-a-diy-game-console-wit-1790381861?fbclid=IwAR2iUVfynxsvxwU90BgGt9ELIIPzoQnr5UuBBZ-yuPJmNHVIcal6gvlsJiM
@@ -78,3 +80,8 @@ Ha első indításra nem fogadja el a *RETROPIE* kiszolgáló nevet, akkor indí
 2. Lépj a Raspberry parancssorába **(Menu -> Quit)**
 3. Írd be a következő utasítást `sudo nano /opt/retropie/configs/all/retroarch.cfg`
 4. Keresd meg a fájl végén a `cheevos_username` és `cheevos_password` sort, majd töltsd ki az idézőjelek közti részt a saját felhasználói fiókod adataival.
+
+---
+## Képernyőképek a projektről
+![Menü](kepernyokep_menu.jpg)  
+![Játékmenet](kepernyokep_jatekmenet.jpg)  
