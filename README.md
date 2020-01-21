@@ -5,7 +5,7 @@ Projektünket **Raspberry Pi 2 Model B**-n készítettük el.
 
 A rendszer alapja a **RetroPie** nevű ingyenes operációs rendszer, amely *Raspbian, EmulationStation és RetroArch* alapjaival készült.  
 
-Szükséges hardwarek:
+**Szükséges hardwarek:**
 - Ajánlott egy Raspberry 2 vagy annál nagyobb teljesítményű
 - Kijelző (HDMI-vel rendelkező)
 - USB-s vagy BlueTooth-os joystick
@@ -46,20 +46,21 @@ Azért ezt a projektet választottuk magunknak, mert:
 ---
 ## Használati Útmutató
 ### Az eszköz üzembe helyezése
-1. Ha már áramforrásra és kijelzőre kötöttük a projekttünkkel rendelkező Raspberry Pi-t akkor szimplán indítsuk azt el.
-2. Amennyiben indításkor új kontrollert észlel abban az esetben automatikusan felajánlja, hogy konfiguráljuk azt, egy egyszerű felhasználóbarát ablakban.
-3. A menüben konzolok szerint böngészhetünk, majd a kiválasztott konzolon kiválaszthatjuk a kívánt játékot.
-4. Jó játékot!
+1. Kössük áramforrásra és kijelzőre a projekttünket
+2. Amennyiben indításkor új kontrollert észlel abban az esetben automatikusan felajánlja, hogy konfiguráljuk azt, egy egyszerű felhasználóbarát ablakban
+3. A menüben konzolok szerint böngészhetünk, majd a kiválasztott konzolon kiválaszthatjuk a kívánt játékot
+4. Jó játékot! ☺
 ### Játékok hozzáadása  
 Ehhez két lehetőségünk adott:
 - **Játékok hozzáadása hálózaton**
 1. Kössük hálózatra (vagy csatlakoztassuk Wifire) a Raspberry Pi-t,
 2. Nyissunk meg egy SFTP szolgáltatást nyújtó szoftvert (WinSCP),
 3. Csatlakozzunk a Pi-re a következőkkel:  
-Host name: *RETROPIE*  
-Port number: *22*  
-Username: *pi*  
-Password: *raspberry*  
+Host name: `RETROPIE`   
+Port number: `22`  
+Username: `pi`   
+Password: `raspberry`    
+Ha első indításra nem fogadja el a *RETROPIE* kiszolgáló nevet, akkor indítsuk újra a Raspberry Pi-t  
 4. Helyezzük el az adott játékot(játékokat) a következő helyre: `~/RetroPie/roms/$""` az idézőjelek között válasszuk ki a játék konzolját. (pl: *snes* vagy *gba*)
 5. Zárjuk be a kapcsolatot a PC-ről
 6. Frissítsük a rendszert F4 lenyomásával, vagy válasszuk ki azt a menüből
