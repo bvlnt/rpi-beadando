@@ -12,17 +12,24 @@ Szükséges hardwarek:
 - Micro SD kártya (minimum 8 Gb tárhelyű)
 - Billentyűzet a parancssor használatához
 - HDMI kábel
+
+Elvégzett plusz feladatok a rendszerben:
+- Felhasználtunk egy Scrapert (SkyScrapert) ami megjelenít egy videót a könyvtárban az adott játék mellett,
+- Felhasználtunk egy témakezelőt és töltöttünk fel hozzá különböző ingyenesen elérhető témákat,
+- Létrehoztunk SSH és SFTP kapcsolatot, így könnyedén távolról is hozzáadhatóak plusz játékok és további dolgok a projekthez,
 ### Miért ezt választottuk
 Azért ezt a projektet választottuk magunknak, mert: 
 - Tetszett az alapötlete a rendszernek, hogy egy ekkora méretű erőforrással játékok sokaságát vagyunk képesek játszani,
 - Könnyedén elérhető, kevés perifériát használ,
 - Könnyen és jól fejleszthető / tovább gondolható,
 - Szórakoztató
+### Kiemelt tulajdonságai a projektnek
 ### Fejlesztési lehetőségek
 - A kész projekt Arcade Gépbe való importálása  
 ![Arcade Gép](https://www.tinyarcademachines.com/uploads/1/1/6/6/11664734/3004564_orig.jpg)  
 - Értesítő üzenet rendszer létrehozása Python scriptek felhasználásával/kódolásával  
-például: ha elérünk egy adott Mérföldkövet akkor kapjunk egy Twitter üzenetet.
+*például: ha elérünk egy adott Mérföldkövet akkor kapjunk egy Twitter üzenetet.*
+- 
 ### Források
 - https://retropie.org.uk/
 - https://lifehacker.com/the-advanced-guide-to-setting-up-a-diy-game-console-wit-1790381861?fbclid=IwAR2iUVfynxsvxwU90BgGt9ELIIPzoQnr5UuBBZ-yuPJmNHVIcal6gvlsJiM
